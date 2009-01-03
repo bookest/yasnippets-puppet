@@ -1,0 +1,5 @@
+#name: package
+# --
+package { "${1:name}":
+  ensure => ${2:installed},
+}
